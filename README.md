@@ -1,4 +1,4 @@
-# 📈 **Control de Pacientes de Veterinaria** 📈
+# 📈 **Control de Gastos** 📈
 
 ## **📌 ¿De qué se trata?**
 
@@ -8,7 +8,7 @@
 
 📍 En caso de perder el internet o cerrar la página por accidente, los datos no se pierden.
 
-📍 **Deploy:** [Administrador de Pacientes](https://administrador-pacientes-vuejs.netlify.app/)
+📍 **Deploy:** [Administrador de Pacientes](https://control-de-gastos-vuejs.netlify.app/)
 
  <br /> 
  
