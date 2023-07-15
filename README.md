@@ -8,7 +8,7 @@
 
 📍 En caso de perder el internet o cerrar la página por accidente, los datos no se pierden.
 
-📍 **Deploy:** [Administrador de Pacientes](https://control-de-gastos-vuejs.netlify.app/)
+📍 **Deploy:** [Control de Gastos](https://control-de-gastos-vuejs.netlify.app/)
 
  <br /> 
  
