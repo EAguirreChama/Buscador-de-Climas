@@ -2,19 +2,19 @@
 
 ## **📌 ¿De qué se trata?**
 
-📍 La idea de este proyecto es construir una aplicación web para que cada persona pueda administrar sus gastos mensuales. Manejaras de una forma muy fácil los gastos. Eliminarlos cuando ya no los necesites y crear nuevos gastos en caso de necesitarlos
+📍 La idea de este proyecto es construir una aplicación web donde puedas buscar el clima de una determinada ubicación en cualquier parte del mundo. El clima será el que se encuentra en ese momento
 
-📍 No podrás pasarte de los limites. Proximamente la idea es integrar una función para aumentar el presupuesto.
+📍 Donde quieras y cuando lo necesites podrás saber si el día esta para hacer los planes que tenes pensado.
 
 📍 En caso de perder el internet o cerrar la página por accidente, los datos no se pierden.
 
-📍 **Deploy:** [Control de Gastos](https://control-de-gastos-vuejs.netlify.app/)
+📍 **Deploy:** [Control de Gastos](https://buscador-de-climas.netlify.app/)
 
  <br /> 
  
 ## **📌 ¿Qué podrás encontrar?** 
-- Validaciones
-- Filtrado por gastos
+- Consumo de una api externa
+- Validaciones en caso de poner un lugar incorrecto
 
 <br />
 
@@ -22,6 +22,7 @@
 
 - Vue.Js
 - Tailwind Css
+- Consumo de Api
 
 <br />
 
