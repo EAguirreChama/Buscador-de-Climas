@@ -1,4 +1,4 @@
-# 📈 **Control de Gastos** 📈
+# ☀ **Buscador de Climas** ☀
 
 ## **📌 ¿De qué se trata?**
 
