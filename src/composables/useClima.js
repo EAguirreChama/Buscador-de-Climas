@@ -8,6 +8,7 @@ export default function useClima() {
     const error = ref('')
 
     const obtenerClima = async({ciudad, pais}) => {
+        
         // Importar la Api Key
         const key = import.meta.env.VITE_API_KEY
         cargando.value = true
@@ -15,6 +16,7 @@ export default function useClima() {
         error.value = ''
 
         try {
+            
             // Obtener la Lay y Long
             const url = `https://api.openweathermap.org/geo/1.0/direct?q=${ciudad},${pais}}&limit=1&appid=${key}`
             const { data }= await axios(url)
