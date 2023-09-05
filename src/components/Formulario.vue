@@ -1,6 +1,6 @@
 <script setup>
-    import { reactive, ref } from 'vue';
     import Alerta from './Alerta.vue'
+    import { reactive, ref } from 'vue';
 
     const busqueda = reactive({
         ciudad: '',
@@ -29,24 +29,24 @@
         error.value = ''
         emit('obtener-clima', busqueda)
     }
-
 </script>
 
 <template>
     <form class="formulario" @submit.prevent="consultarClima">
 
-        <Alerta v-if="error">{{ error }}</Alerta>
+        <Alerta v-if="error"> {{ error }} </Alerta>
 
         <div class="campo">
-            <label for="ciudad">Ciudad</label>
+            <label for="ciudad"> Ciudad </label>
             <input type="text" id="ciudad" placeholder="Ciudad" v-model="busqueda.ciudad">
         </div>
 
         <div class="campo">
-            <label for="pais">País</label>
+            <label for="pais"> País </label>
             <select id="pais" v-model="busqueda.pais" class="select">
                 <option value="" class="option">-- Seleccione un País --</option>
-                <option v-for="pais in paises" :value="pais.codigo" class="option">{{ pais.nombre }}</option>
+                
+                <option v-for="pais in paises" :value="pais.codigo" class="option"> {{ pais.nombre }} </option>
             </select>
         </div>
 
