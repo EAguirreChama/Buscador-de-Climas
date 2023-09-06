@@ -8,7 +8,7 @@
 
 📍 En caso de perder el internet o cerrar la página por accidente, los datos no se pierden.
 
-📍 **Deploy:** [Control de Gastos](https://buscador-de-climas.netlify.app/)
+📍 **Deploy:** [Buscador de Clima](https://buscador-de-climas.netlify.app/)
 
  <br /> 
  
