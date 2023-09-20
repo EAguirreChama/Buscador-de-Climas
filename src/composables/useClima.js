@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { computed, ref } from 'vue';
+import axios from 'axios'
+import { computed, ref } from 'vue'
 
 export default function useClima() {
 
