@@ -19,7 +19,6 @@ body {
   font-size: 3rem;
   margin-top:5rem;
 }
-
 .contenedor {
   max-width: 100rem;
   width: 95%;
@@ -69,7 +68,6 @@ body {
   color: var(--blanco);
   opacity: 1; 
 }
-
 .resultado {
   background-color: var(--blanco);
   padding: 1rem;
@@ -78,7 +76,6 @@ body {
   text-align: center;
   margin-top: 2rem;
 }
-
 .resultado .actual {
   font-size: 6rem;
   margin: 0;
@@ -95,14 +92,12 @@ body {
 .temperaturas span {
   font-weight: 400;
 }
-
 .instrucciones,
 .no-resultados {
   text-align: center;
   color: var(--blanco);
   font-size: 2rem;
 }
-
 /* Agregue yo */
 .option {
   color: black;
