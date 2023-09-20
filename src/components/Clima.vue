@@ -1,5 +1,5 @@
 <script setup>
-    import useClima from '../composables/useClima';
+    import useClima from '../composables/useClima'
 
     const { formatearTemperatura } = useClima()
 
