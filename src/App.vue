@@ -3,9 +3,7 @@
   import Clima from  './components/Clima.vue'
   import Spinner from './components/Spinner.vue'
   import Alerta from './components/Alerta.vue'
-  
   import useClima from './composables/useClima'
-
   const { obtenerClima, clima, mostrarClima, cargando, error} = useClima()
 </script>
 
